@@ -9,9 +9,8 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</div>
-				<div class="width-logo table-cell sm-logo">
+				<div class="new-width-logo width-logo table-cell sm-logo">
 					<?php
-					do_action( 'thim_logo' );
 					do_action( 'thim_sticky_logo' );
 					do_action( 'thim_mobile_logo' );
 					?>

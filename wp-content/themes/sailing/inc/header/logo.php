@@ -70,7 +70,7 @@ if ( !function_exists( 'thim_sticky_logo' ) ) :
 				}
 			}
 			$site_title     = esc_attr( get_bloginfo( 'name', 'display' ) );
-			echo '<a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . ' - ' . esc_attr( get_bloginfo( 'description' ) ) . '" rel="home" class="sticky-logo no-mobile-logo">
+			echo '<a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . ' - ' . esc_attr( get_bloginfo( 'description' ) ) . '" rel="home" class="no-mobile-logo">
 					<img src="' . $thim_logo_stick_logo_src . '" alt="' . $site_title . '" /></a>';
 		} elseif ( isset( $thim_options_data['thim_logo'] ) && $thim_options_data['thim_logo'] <> '' ) {
 			$thim_logo     = $thim_options_data['thim_logo'];
@@ -84,11 +84,11 @@ if ( !function_exists( 'thim_sticky_logo' ) ) :
 				}
 			}
 			$site_title     = esc_attr( get_bloginfo( 'name', 'display' ) );
-			echo '<a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . ' - ' . esc_attr( get_bloginfo( 'description' ) ) . '" rel="home" class="sticky-logo no-mobile-logo">
+			echo '<a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . ' - ' . esc_attr( get_bloginfo( 'description' ) ) . '" rel="home" class="no-mobile-logo">
 				<img src="' . $thim_logo_src . '" alt="' . $site_title . '" /></a>';
 		}
 		if ( isset($thim_options_data['thim_sticky_logo']) && $thim_options_data['thim_sticky_logo'] == '' && isset($thim_options_data['thim_logo']) && $thim_options_data['thim_logo'] == '' ) {
-			echo '<a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . ' - ' . esc_attr( get_bloginfo( 'description' ) ) . '" rel="home" class="sticky-logo no-mobile-logo">
+			echo '<a href="' . esc_url( home_url( '/' ) ) . '" title="' . esc_attr( get_bloginfo( 'name', 'display' ) ) . ' - ' . esc_attr( get_bloginfo( 'description' ) ) . '" rel="home" class="no-mobile-logo">
 			' . esc_attr( get_bloginfo( 'name' ) ) . '</a>';;
 		}
 	}

@@ -3,7 +3,22 @@ Theme Name: Sailing
 Author: Duc Dung Ngo
 Description: Sailing Hotel
 */
+.new-site-header {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    z-index: 1000;
+    padding: 15px 0 0;
+}
 
-.sailing-test {
-    color: red !important;
+@media (min-width: 768px) {
+    .new-site-header {
+        padding: 15px 0 0;
+        z-index: 1000;
+        position: fixed;
+        background-color: #fff;
+        width: 100%;
+    }
+    .new-width-logo {
+        padding-top: 0 !important;
+    }
 }
