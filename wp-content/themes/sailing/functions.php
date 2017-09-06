@@ -174,6 +174,7 @@ function thim_scripts() {
 	global $thim_options_data;
 
 	wp_enqueue_style('thim-css-style', TP_THEME_URI . 'assets/css/custom-style.css', array(), TP_THEME_VERSION);
+	wp_enqueue_style('thim-css-style-ver2', TP_THEME_URI . 'assets/css/custom-style-ver2.css', array(), TP_THEME_VERSION);
 
     if (is_multisite()) {
         if (file_exists(TP_THEME_DIR . 'style-' . $current_blog->blog_id . '.css')) {

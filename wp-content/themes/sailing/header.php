@@ -73,7 +73,7 @@ if ( isset( $thim_options_data['thim_rtl_support'] ) && $thim_options_data['thim
 <?php } ?>
 <div id="wrapper-container" class="wrapper-container">
 	<div class="content-pusher <?php echo esc_attr($class_boxed); ?>">
-		<header id="masthead" class="site-header affix-top<?php echo esc_attr( $custom_sticky ); ?>">
+		<header id="masthead" class="sailing-test site-header affix-top<?php echo esc_attr( $custom_sticky ); ?>">
 			<?php
 			// Drawer
 			if ( isset( $thim_options_data['thim_show_drawer'] ) && $thim_options_data['thim_show_drawer'] == '1' && is_active_sidebar( 'drawer_top' ) ) {
