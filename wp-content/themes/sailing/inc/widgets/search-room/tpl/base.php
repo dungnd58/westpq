@@ -40,7 +40,7 @@ echo '<div class="widget-content" style="'.$style.'">';
 	if($title <> ''){
 		echo '<div class="wrapper-line-heading">';
 		echo '<h3 class="heading__primary">'.esc_attr($title).'</h3>';
-		echo '<span class="line-heading"><span></span></span>';
+		echo '<hr class="new-line-heading">';
 		echo '</div>';
 	}
 		echo do_shortcode('[hotel_booking search_page="' . esc_url($search) . '" show_title="" show_label="'.esc_attr($show_label).'"]'); 

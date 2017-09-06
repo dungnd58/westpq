@@ -25,7 +25,7 @@ if ( $instance['sub-title'] ) {
 	$subtitle = '<p class="heading__secondary">' . $instance['sub-title'] . '</p>';
 }
 if ( $instance['line'] ) {
-	$line_heading = '<span class="line-heading"><span></span></span>';
+	$line_heading = '<hr class="new-line-heading">';
 	$thim_animation        .= ' wrapper-line-heading';
 }
 echo '<div class="sc-heading article_heading' . $thim_animation . '">';

@@ -82,8 +82,8 @@ if ($instance['widget_background'] == 'bg_video' && $instance['self_video'] != '
 // show title
 $html_title = $border_bottom_title = $class_separator = '';
 if ($instance['title_group']['line_after_title'] == '1') {
-    $border_bottom_title = '<span class="line-heading"><span></span></span>';
-    $thim_animation .= ' wrapper-line-heading';
+    $border_bottom_title = '<hr class="new-line-heading">';
+    $thim_animation .= ' wrapper-line-heading new-wrapper-line-heading';
 }
 
 
