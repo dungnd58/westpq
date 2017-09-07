@@ -56,3 +56,9 @@ Description: Sailing Hotel
     font-size: 48px !important;
     padding: 20px 0 !important;
 }
+
+.new-list-html-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
