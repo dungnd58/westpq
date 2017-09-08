@@ -26,6 +26,10 @@ Description: Sailing Hotel
 }
 #main-content {
     padding-top: 100px;
+}
+
+/* BODY */
+body {
     background-image: url(http://westphuquochotel.vn/wp-content/uploads/2017/09/westpq-background.png);
     background-repeat-y: repeat;
     background-repeat-x: no-repeat;
