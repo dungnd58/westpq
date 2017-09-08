@@ -3,6 +3,8 @@ Theme Name: Sailing
 Author: Duc Dung Ngo
 Description: Sailing Hotel
 */
+
+/* HEADER */
 .new-site-header {
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
@@ -22,7 +24,17 @@ Description: Sailing Hotel
         padding-top: 0 !important;
     }
 }
+#main-content {
+    padding-top: 100px;
+    background-image: url(http://westphuquochotel.vn/wp-content/uploads/2017/09/westpq-background.png);
+    background-repeat-y: repeat;
+    background-repeat-x: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 
+
+/* BODY */
 .new-wrapper-line-heading {
     padding-bottom: 25px;
 }
