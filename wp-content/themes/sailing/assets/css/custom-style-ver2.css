@@ -33,10 +33,19 @@ body {
     background-image: url(http://westphuquochotel.vn/wp-content/uploads/2017/09/main-westpq-background.jpg);
     background-repeat-y: repeat;
     background-repeat-x: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
+/* temporary */
+.page-id-2545, .page-id-14 {
+    background-size: cover !important;
+}
 
+@media (max-width: 767px) {
+    .menu-mobile-effect span {
+        background-color: #fff;
+    }
+}
 
 /* BODY */
 .new-wrapper-line-heading {
