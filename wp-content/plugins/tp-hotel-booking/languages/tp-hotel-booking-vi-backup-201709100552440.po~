@@ -6,7 +6,7 @@ msgstr ""
 "\n"
 "POT-Revision-Date: Thu Apr 14 2016 15:45:46 GMT+0700 (SE Asia Standard Time)"
 "\n"
-"PO-Revision-Date: 2017-09-10 05:52+0000\n"
+"PO-Revision-Date: 2017-09-10 05:47+0000\n"
 "Last-Translator: Vi <vi_admin@gmail.com>\n"
 "Language-Team: Vietnamese\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -86,7 +86,7 @@ msgstr ""
 #: ../includes/booking/hb-booking-functions. php:63
 #: ../includes/cart/class-hb-cart.php:628
 msgid "Your cart is empty."
-msgstr "Danh sách đặt phòng trống"
+msgstr ""
 
 #: ../includes/class-hb-checkout.php:55
 #, php-format
@@ -2795,8 +2795,6 @@ msgid ""
 "Thank you! Your booking has been placed. Please check your email %s to view "
 "booking details"
 msgstr ""
-"Xin chân thành cảm ơn! Thông tin đặt phòng của quý khách đã được lưu. Vui "
-"lòng kiểm tra tại địa chỉ email %s để xem thông tin đặt phòng."
 
 #: ../includes/gateways/paypal/class-hb-payment-gateway-paypal.php:52 ..
 #: includes/plugins/tp-hotel-booking-paypal/inc/class-hb-payment-gateway-paypal.
@@ -3090,7 +3088,7 @@ msgstr ""
 #: .. /templates/cart/cart.php:104 ../templates/cart/mini_cart.php:28
 #: templates/cart/mini_cart_layout.php:42
 msgid "Your cart is empty!"
-msgstr "Danh sách đặt phòng trống"
+msgstr ""
 
 #. Name of the plugin
 msgid "TP Hotel Booking Authorize Payment"
@@ -3950,16 +3948,13 @@ msgstr ""
 
 #: ../templates/emails/customer-booking.php:16
 msgid "Thanks for your booking."
-msgstr "Xin chân thành cảm ơn."
+msgstr ""
 
 #: ../templates/emails/customer-booking.php:17
 msgid ""
 "Thank you for making reservation at our hotel. We will try our best to bring "
 "the best service. Good luck and see you soon!"
 msgstr ""
-"Xin chân thành cảm ơn quý khách vì đã lựa chọn dịch vụ đặt phòng tại West "
-"Phu Quoc Hotel. Chúng tôi luôn cố gắng mang đến cho khách hàng những dịch vụ "
-"tốt nhất. Cảm ơn và hẹn gặp lại!"
 
 #: ../templates/emails/customer-details.php:26
 msgid "Email Address"
