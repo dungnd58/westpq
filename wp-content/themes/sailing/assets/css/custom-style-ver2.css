@@ -36,6 +36,11 @@ body {
     background-size: contain;
     background-position: center;
 }
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+    body {
+        background-size: cover;
+    }
+}
 /* temporary */
 .page-id-2545, .page-id-14 {
     background-size: cover !important;
